@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: radial-gradient(circle, #1b1b2f, #162447);
+}
+header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: url('https://www.transparenttextures.com/patterns/cubes.png'), radial-gradient(circle, #1b1b2f, #18306d);
+    background-blend-mode: overlay;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+header h1{
+    background-clip: text;
+    background-blend-mode: overlay;
+   
+    color: white;
+    font-size: 3em;
+    font-weight: 900;
+}
+header span{
+    background: linear-gradient(to left ,#00ffea , rgb(0, 140, 255));
+    background-clip: text;
+    color: #18306d5b;
+}
+header p{
+     font-size: 1.2em;
+     color: white;
+     margin-top: 10px;
+     max-width: 600px;
+}
+.wts-btn{
+      font-size: 1.1em;
+      font-weight: 700;
+     margin-top: 30px;
+     text-decoration: none;
+     color: white;
+     border-radius: 30px;
+     padding: 13px 24px;
+     background-color: rgb(76, 190, 76);
+     transition: all 1.2s;
+}
+.wts-btn:hover{
+    transform: scale(1.08);
+}
+.resultados{
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+}
+.card{
+    margin-top: 210px;
+    padding: 0px 34px;
+    height: 15vh;
+    margin-left: 10px;
+    border-left: 3px solid rgb(255, 255, 255);
+    transition: all 1s;
+}
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.card-ultimo{
+        border-right: 3px solid rgb(253, 253, 253);
+}
+.card h1{
+   font-size: 1.3em;
+   color:#00ffea
+}
+#servicos{
+
+    height: 1100px;
+    text-align: center;
+    padding: 120px 0px;
+}
+#servicos h1{
+    letter-spacing: 2px;
+     font-size: 2.6em;
+     color:#0966e0;
+}
+#servicos ul{
+    margin-top: 20px;
+}
+#servicos li{
+    line-height: 30px;
+    font-weight: 900;
+    font-size: 1em;
+    color: white;
+    list-style: none;
+}
+.fazemos-caixa{
+   width: 1700px;
+}
+.caixa1{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.fazemos img{
+    width: 150px;
+}
+.fazemos{
+     margin-top: 80px;
+    padding: 10px 60px;
+    height: 300px;
+    width: 400px;
+    margin-left: 200px;
+    transition: all 1s;
+
+}
+.fazemos:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#servicos .fazemos h1{
+    letter-spacing: 2px;
+     font-size: 1.5em;
+      color:#0966e0;
+}
+.fazemos p{
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#ajudar {
+     background: radial-gradient(circle, #242441, #000000);
+    text-align: center;
+    margin-top: 140px;
+    height: 1000px;
+    padding-top: 200px;
+}
+
+#ajudar h2{
+    letter-spacing: 2px;
+     font-weight: bolder;
+     font-size: 2em;
+     color: white;
+}
+#ajudar span{
+    font-size: 1em;
+    color: #00bcd4;
+}
+.servicos-ajudar{
+  
+    margin-top: 230px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.analises{
+     margin-left: 50px;
+    width: 400px;
+}
+.analises h1{
+    text-align: left;
+    color: #00bcd4;
+}
+.analises p{
+    margin-top: 7px;
+    text-align: left;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+.porque{
+    padding: 140px 420px;
+}
+.porque h1{
+    color: #00bcd4;
+    font-weight: 3em;
+}
+.porque li{
+    margin-top: 10px;
+    line-height: 28px;
+    list-style: none;
+    font-size: 1.2em;
+    color: white;
+}
+.porque h2{
+    text-align: center;
+    color: #00bcd4;
+    font-size: 2em;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.porque a{
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-left: 420px;
+     color: white;
+     border-radius: 30px;
+     padding: 13px 24px;
+     text-decoration: none;
+     background-color: rgb(76, 190, 76);
+
+}
+.porque p{
+    color: gray;
+    text-align: center;
+    margin-top: 30px;
+}
+.porque span{
+    font-weight: lighter;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 30px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+
+}
+footer p{
+    font-size: 20px;
+    margin-top: 0px;
+}
+footer ul{
+     margin-top: 0px;
+}
+footer li{
+   margin-left: 30px;
+   list-style: none;
+   line-height: 40px;
+   display: block;
+
+}
+footer a{
+     color: white;
+     font-size: 18px;
+     text-decoration: none;
+       margin-top: 10px;
+}
+footer a:hover{
+    text-decoration: underline;
+}

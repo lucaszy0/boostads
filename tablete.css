@@ -1,0 +1,18 @@
+@media (min-width: 820px) and (max-width: 1400px){
+    #servicos {
+    height: 450px;
+    padding: 50px 60px;
+}
+.servicos-ajudar{
+   transform: scale(1);
+      margin-left: 0px;
+}
+
+.analises{
+     margin-left: 30px;
+    width: 400px;
+}
+.porque{
+    padding: 60px 40px;
+}
+}

@@ -1,0 +1,98 @@
+@media (max-width:818px) {
+    
+    .resultados{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 0px;
+    max-width: 1900px;
+   margin-left: 0px;
+   transform: scale(0.6);
+   height: 10px;
+}
+.card{
+    margin-top: 20px;
+    padding: 0px 34px;
+    height: 17vh;
+    border-left: 3px solid rgb(255, 255, 255);
+    transition: all 1s;
+}
+#servicos{
+    height: 450px;
+    padding: 30px 40px;
+}
+#servicos li{
+    line-height: 30px;
+    font-weight: 900;
+    font-size: 0.9em;
+    color: white;
+    list-style: none;
+}
+   #servicos {
+    height: 450px;
+    padding: 50px 60px;
+}
+.servicos-ajudar{
+    margin-top: 80px;
+   transform: scale(1);
+   margin-left: 0px;
+}
+.analises{
+    margin-top: 10px;
+     margin-left: 45px;
+    width: 240px;
+    height: 100px;
+}
+.baixo1{
+    position: absolute;
+    margin-top: 230px;
+    left: 0;
+    transform: scale(0.91);
+}
+.baixo2{
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 270px;
+   transform: scale(0.8);
+}
+.porque{
+    padding: 60px 20px;
+}
+.porque a{
+    margin-left: 100px;
+}
+
+footer p{
+    font-size: 13px;
+    margin-top: 0px;
+    width: 50px;
+}
+.fazemos{
+   transform: scale(0.9);
+   margin-left: 0px;
+
+}
+#servicos{
+
+    height: 1500px;
+    text-align: center;
+    padding:20px 0px;
+}
+.fazemos{
+      margin-top: 0px;
+      align-items: left;
+    padding: 30px;
+    width: 300px;
+
+}
+.fazemos-caixa{
+   width: 400px;
+}
+.caixa1{
+  margin-left: 80px;
+  
+    display: block;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+}

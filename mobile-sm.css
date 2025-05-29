@@ -1,0 +1,65 @@
+@media (max-width: 400px){
+     .resultados{
+    display: flex;
+    margin-top: 40px;
+   transform: scale(0.4);
+   max-width: 1900px;
+   margin-left: 0px;
+   height: 10px;
+}
+.card{
+    margin-top: 20px;
+    padding: 0px 34px;
+    height: 17vh;
+    border-left: 3px solid rgb(255, 255, 255);
+    transition: all 1s;
+    transform: scale(1);
+}
+#servicos{
+    transform: scale(0.9);
+    height: 450px;
+    padding: 10px 10px;
+}
+#servicos li{
+    line-height: 30px;
+    font-weight: 900;
+    font-size: 0.9em;
+    color: white;
+    list-style: none;
+}
+   #servicos {
+    height: 450px;
+    padding: 50px 0px;
+}
+.servicos-ajudar{
+    margin-top: 80px;
+   transform: scale(1);
+   margin-left: 0px;
+}
+.analises{
+    transform: scale(0.8);
+    margin-top: 0px;
+     margin-left: 0px;
+    width: 240px;
+    height: 100px;
+    padding: 0px;
+}
+.baixo1{
+    position: absolute;
+    margin-top: 200px;
+    left: 0;
+    transform: scale(0.7);
+}
+.baixo2{
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 0px;
+   transform: scale(0.7);
+}
+.porque{
+    padding: 60px 20px;
+}
+.porque a{
+    margin-left: 70px;
+}
+}
